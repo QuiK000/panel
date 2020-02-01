@@ -193,5 +193,89 @@
   font-family: "Raleway", sans-serif;
   max-width: 320px;
 }
+.main__price {
+  background: #444444f5;
+}
+.main__price-text {
+  padding-top: 220px;
+  text-align: center;
+}
+.main__price-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.main__price-description {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 12px;
+  font-weight: 400;
+}
+.main__price-card-ul-active {
+  box-shadow: 0px 0px 12px rgba(41, 46, 50, 0.6);
+}
+.main__price-card-width {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.main__price-card-li-title {
+  background: #231f20;
+  color: #FFFFFF;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main__price-card-li-name {
+  background: #231f20;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.main__price-card-li-time {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #929496;
+  background: #ffffff;
+}
+.main__price-card-li-features-first {
+  border-top: 1px dotted #E8EAEA;
+}
+.main__price-card-li-features {
+  color: #231f20;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #E8EAEA;
+  background: #ffffff;
+}
+.main__price-card-li-features-btn {
+  padding-top: 17px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #E8EAEA;
+  background: #ffffff;
+  font-weight: 700;
+}
+.main__price-card-li-features-btn-a {
+  display: block;
+  color: #70cbce;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.main__price-card-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 /*# sourceMappingURL=style.css.map */
