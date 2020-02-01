@@ -17,6 +17,29 @@ $ral: 'Raleway', sans-serif;
   margin: 0 auto;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+
 .enter {
   margin-left: 10px;
+}
+
+.purple {
+  color: #6d3f96;
+  width: 100%;
+  border: 2px solid;
+}
+.green {
+  color: #70cbce;
+  width: 100%;
+  border: 2px solid;
+}
+.yellow {
+  color: #fdc05d;
+  width: 100%;
+  border: 2px solid;
 }
