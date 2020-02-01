@@ -302,7 +302,7 @@
 .main__auto-install-width {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
