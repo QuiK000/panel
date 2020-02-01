@@ -194,6 +194,7 @@
   max-width: 320px;
 }
 .main__price {
+  margin-top: 70px;
   background: #444444f5;
 }
 .main__price-text {
@@ -218,7 +219,7 @@
 .main__price-card-width {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 30%;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;

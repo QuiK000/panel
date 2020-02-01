@@ -165,6 +165,7 @@
   }
   
   &__price {
+    margin-top: 70px;
     background: #444444f5;
 
     &-text {
@@ -193,7 +194,7 @@
       &-width {
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 30%;
         margin: 0 auto;
         text-align: center;
         margin-top: 50px;
