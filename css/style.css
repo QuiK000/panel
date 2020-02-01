@@ -195,6 +195,7 @@
 }
 .main__price {
   margin-top: 70px;
+  padding-bottom: 120px;
   background: #444444f5;
 }
 .main__price-text {
@@ -277,6 +278,40 @@
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+.main__auto-install {
+  background: #f2f2f2;
+  padding-top: 120px;
+}
+.main__auto-install-text {
+  text-align: center;
+}
+.main__auto-install-title {
+  color: #231f20;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.5;
+}
+.main__auto-install-description {
+  color: #231f20;
+  font-size: 17px;
+  margin-top: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.main__auto-install-width {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main__auto-install-active {
+  box-shadow: 0px 0px 12px rgba(41, 46, 50, 0.6);
+}
+.main__auto-install-card {
+  margin-top: 30px;
+  padding-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
