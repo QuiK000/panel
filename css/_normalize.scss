@@ -1,0 +1,22 @@
+$mont: 'Montserrat', sans-serif;
+$ral: 'Raleway', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: $mont;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.enter {
+  margin-left: 10px;
+}

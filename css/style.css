@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.enter {
+  margin-left: 10px;
+}
+
+.header {
+  background: url("../img/header-bg.jpg") no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  padding-top: 20px;
+}
+.header__logo {
+  cursor: pointer;
+}
+.header__menu {
+  align-self: center;
+}
+.header__menu-nav-ul {
+  display: flex;
+}
+.header__menu-nav li {
+  margin: 0 2px;
+}
+.header__menu-nav-a {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.header__menu-nav-a:hover {
+  text-decoration: underline;
+}
+.header__info {
+  text-align: center;
+  margin-top: 320px;
+}
+.header__info-text {
+  color: #fff;
+}
+.header__info-title {
+  font-weight: 700;
+  font-size: 55px;
+}
+.header__info-description {
+  font-family: "Raleway", sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 26px;
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.header__info-btn {
+  text-align: center;
+  width: 30%;
+  margin: 50px auto;
+}
+.header__info-btn a {
+  margin: 0 20px;
+}
+.header__info-btn-white {
+  background: #fff;
+  color: #231f20;
+  padding: 22px 30px;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.header__info-btn-white:hover {
+  filter: brightness(95%);
+}
+.header__info-btn-dark {
+  background-color: #444444f5;
+  color: #fff;
+  padding: 22px 30px;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.header__info-btn-dark:hover {
+  filter: brightness(95%);
+}
+.header__mouse {
+  top: 230px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  display: block;
+  height: 50px;
+  margin: -100px auto 50px;
+  position: relative;
+  width: 30px;
+  z-index: 10;
+}
+.header__mouse-scroll {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 10px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 4px;
+  width: 4px;
+}
+
+.main {
+  background: url("../img/be-the-first-bg.jpg") no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */

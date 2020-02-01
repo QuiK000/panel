@@ -1,0 +1,121 @@
+@import '_normalize.scss';
+
+.header {
+  background: url('../img/header-bg.jpg') no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  padding-top: 20px;
+
+  &__logo {
+    cursor: pointer;
+  }
+  &__menu {
+    align-self: center;
+
+    &-nav {
+      // todo
+      &-ul {
+        display: flex;
+      }
+      li {
+        margin: 0 2px;
+      }
+      &-a {
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 1px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &__info {
+    text-align: center;
+    margin-top: 320px;
+    
+    &-text {
+      color: #fff;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 55px;
+      
+    }
+    &-description {
+      font-family: $ral;
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 26px;
+      font-size: 21px;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+    &-btn {
+      text-align: center;
+      width: 30%;
+      margin: 50px auto;
+
+      a {
+        margin: 0 20px;
+      }
+
+      &-white {
+        background: #fff;
+        color: #231f20;
+        padding: 22px 30px;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        transition: .3s;
+        &:hover {
+          filter: brightness(95%);
+        }
+      }
+      &-dark {
+        background-color: #444444f5;
+        color: #fff;
+        padding: 22px 30px;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        transition: .3s;
+        &:hover {
+          filter: brightness(95%);
+        }
+      }
+    }
+  }
+  &__mouse {
+    top: 230px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    display: block;
+    height: 50px;
+    margin: -100px auto 50px;
+    position: relative;
+    width: 30px;
+    z-index: 10;
+    &-scroll {
+      background: #fff none repeat scroll 0 0;
+      border-radius: 10px;
+      height: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 4px;
+      width: 4px;
+    }
+  }
+}
+
+.main {
+  background: url('../img/be-the-first-bg.jpg') no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  background-attachment: fixed;
+}
